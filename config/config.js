@@ -118,7 +118,7 @@ let config = {
 		{
 disabled: false,
 module: 'MMM-PLOW',
-position: 'middle center',
+position: 'top_center',
 config: {
   languages: "en",                          // en, de, es, fr, it, nl, ar, zh, x-pig-latin
   style: "default",                         // See Style list in readMe
