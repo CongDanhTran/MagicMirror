@@ -1,1 +1,1 @@
-web: node ./serveronly
+web: node serveronly
