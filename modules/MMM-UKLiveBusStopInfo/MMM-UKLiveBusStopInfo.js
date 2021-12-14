@@ -60,7 +60,6 @@ Module.register("MMM-UKLiveBusStopInfo", {
     // updateBusInfo IF module is visible (allows saving credits when using MMM-ModuleScheduler to hide the module)
     updateBusInfo: function(self) {
         if (this.hidden != true) {
-		 Log.info("bus url"  + this.url);
             self.sendSocketNotification('GET_BUSINFO', { 'url': self.url });
         }
     },
@@ -197,19 +196,23 @@ Module.register("MMM-UKLiveBusStopInfo", {
             //Figure out Bus Stop Name
             //Define empty stop name
             var stopName = "";
+			
+			if (typeof data.fromTraveline !== 'undefined' && data.fromTraveline !== null) {
+				   stopName = data.fromTraveline + " | ";
+			}
 
             if (typeof data.name !== 'undefined' && data.name !== null) {
                 //Populate with stop name returned by TransportAPI info - Stop name & indicator combined
-                stopName = data.name;
+                stopName += data.name;
 
                 //If requested, append the bearing as well - assuming it is there!
                 if((this.config.showBearing) && (typeof data.bearing !== 'undefined' && data.bearing !== null)) {
-                    stopName = stopName + " (" + data.bearing + ")";
+                    stopName += stopName + " (" + data.bearing + ")";
                 }
 
             } else if (typeof data.stop_name !== 'undefined' && data.stop_name !== null) {
                 //Populate with stop name and bearing returned by TransportAPI info
-                stopName = data.stop_name + " (" + data.bearing + ")";
+                stopName += data.stop_name + " (" + data.bearing + ")";
             } else {
                 //Default
                 stopName = "Departures";
