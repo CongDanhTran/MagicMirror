@@ -207,7 +207,7 @@ Module.register("MMM-UKLiveBusStopInfo", {
 
                 //If requested, append the bearing as well - assuming it is there!
                 if((this.config.showBearing) && (typeof data.bearing !== 'undefined' && data.bearing !== null)) {
-                    stopName += stopName + " (" + data.bearing + ")";
+                    stopName +=" (" + data.bearing + ")";
                 }
 
             } else if (typeof data.stop_name !== 'undefined' && data.stop_name !== null) {
