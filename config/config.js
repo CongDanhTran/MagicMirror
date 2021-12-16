@@ -152,8 +152,13 @@ config: {
 			units: 'metric', // default, metric, imperial
 			view: 'textAndIcon',
 		},
-	}
-	
+	},
+        {
+            module: 'MMM-auto-refresh',
+            config: {
+                refreshInterval: 43200000000,
+            }
+        }
 	]
 };
 
