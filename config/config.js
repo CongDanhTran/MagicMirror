@@ -140,7 +140,19 @@ config: {
   animationSpeed: 3000,
   updateInterval: 10 * 60 * 1000,
    }
-}
+},	{
+		module: 'MMM-SystemStats',
+		position: 'top_center', // This can be any of the regions.
+		// classes: 'small dimmed', // Add your own styling. OPTIONAL.
+		// header: 'System Stats', // Set the header text OPTIONAL
+		config: {
+			updateInterval: 10000, // every 10 seconds
+			align: 'right', // align labels
+			//header: 'System Stats', // This is optional
+			units: 'metric', // default, metric, imperial
+			view: 'textAndIcon',
+		},
+	}
 	
 	]
 };
