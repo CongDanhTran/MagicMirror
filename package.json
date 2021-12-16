@@ -84,7 +84,8 @@
 		"node-fetch": "^2.6.5",
 		"node-ical": "^0.13.0",
 		"socket.io": "^4.2.0",
-		"request": "^2.81.0"
+		"request": "^2.81.0",
+		"async": "latest"
 	},
 	"_moduleAliases": {
 		"node_helper": "js/node_helper.js",
