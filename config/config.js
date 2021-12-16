@@ -147,7 +147,7 @@ config: {
 		// header: 'System Stats', // Set the header text OPTIONAL
 		config: {
 			updateInterval: 10000, // every 10 seconds
-			align: 'right', // align labels
+			align: 'left', // align labels
 			//header: 'System Stats', // This is optional
 			units: 'metric', // default, metric, imperial
 			view: 'textAndIcon',
@@ -156,7 +156,7 @@ config: {
         {
             module: 'MMM-auto-refresh',
             config: {
-                refreshInterval: 12 * 60 * 60 * 1000,
+                refreshInterval: 6 * 60 * 60 * 1000,
             }
         }
 	]
