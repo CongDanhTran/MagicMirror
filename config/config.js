@@ -156,7 +156,7 @@ config: {
         {
             module: 'MMM-auto-refresh',
             config: {
-                refreshInterval: 6 * 60 * 60 * 1000,
+                refreshInterval: 1 * 60 * 60 * 1000,
             }
         }
 	]
