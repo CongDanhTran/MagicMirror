@@ -19,8 +19,9 @@ let mainWindow;
  *
  */
 function createWindow() {
-	let electronSwitchesDefaults = ["autoplay-policy", "no-user-gesture-required"];
+	let electronSwitchesDefaults = ["autoplay-policy", "no-user-gesture-required"z];
 	app.commandLine.appendSwitch(...new Set(electronSwitchesDefaults, config.electronSwitches));
+	app.commandLine.appendSwitch('disable-http-cache'); 
 	let electronOptionsDefaults = {
 		width: 800,
 		height: 600,
