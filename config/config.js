@@ -101,7 +101,7 @@ let config = {
 		header:		'Departures',			//Optional - delete this line to turn OFF the header completely
 		config: {
 						atcocode: 		'0100BRP90204', 		// ATCO code for specific bus stop
-                        limit:                  10,                                      // Optional - Maximum results to display.
+                        limit:                  8,                                      // Optional - Maximum results to display.
 						showBearing: true
 				}
 		}, 
@@ -111,7 +111,7 @@ let config = {
                 header:         'Departures',                   //Optional - delete this line to turn OFF the header completely
                 config: {
                         atcocode:               '0100BRP90176',                 // ATCO code for specific bus stop
-                        limit:                  10,                                      // Optional - Maximum results to display.
+                        limit:                  8,                                      // Optional - Maximum results to display.
 						showBearing: true
 			   }
 		},
@@ -140,7 +140,8 @@ config: {
   animationSpeed: 3000,
   updateInterval: 10 * 60 * 1000,
    }
-},	{
+},	
+		/*{
 		module: 'MMM-SystemStats',
 		position: 'top_center', // This can be any of the regions.
 		// classes: 'small dimmed', // Add your own styling. OPTIONAL.
@@ -152,7 +153,7 @@ config: {
 			units: 'metric', // default, metric, imperial
 			view: 'textAndIcon',
 		},
-	},
+	},*/
         {
             module: 'MMM-auto-refresh',
             config: {
