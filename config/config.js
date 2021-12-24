@@ -60,10 +60,12 @@ let config = {
 			module: "calendar",
 			header: "UK Holidays",
 			position: "top_left",
+			hideTime: true,
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
+						maximumEntries: 8,
 						url: "webcal://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics"
 					}
 				]
@@ -73,10 +75,12 @@ let config = {
 			module: "calendar",
 			header: "VN Holidays",
 			position: "top_left",
+			hideTime: true,
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
+						maximumEntries: 8,
 						url: "webcal://www.calendarlabs.com/ical-calendar/ics/77/Vietnam_Holidays.ics"
 					}
 				]
