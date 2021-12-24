@@ -60,9 +60,8 @@ let config = {
 			module: "calendar",
 			header: "UK Holidays",
 			position: "top_left",
-			timeFormat: "absolute",
-			hideTime: true,
 			config: {
+				hideTime: true,
 				calendars: [
 					{
 						symbol: "calendar-check",
@@ -76,9 +75,8 @@ let config = {
 			module: "calendar",
 			header: "VN Holidays",
 			position: "top_left",
-			timeFormat: "absolute",
-			hideTime: true,
 			config: {
+				hideTime: true,
 				calendars: [
 					{
 						symbol: "calendar-check",
