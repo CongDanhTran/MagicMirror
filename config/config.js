@@ -60,6 +60,7 @@ let config = {
 			module: "calendar",
 			header: "UK Holidays",
 			position: "top_left",
+			timeFormat: "absolute",
 			hideTime: true,
 			config: {
 				calendars: [
@@ -75,6 +76,7 @@ let config = {
 			module: "calendar",
 			header: "VN Holidays",
 			position: "top_left",
+			timeFormat: "absolute",
 			hideTime: true,
 			config: {
 				calendars: [
