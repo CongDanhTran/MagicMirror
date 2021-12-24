@@ -160,14 +160,6 @@ Module.register("MMM-UKLiveBusStopInfo", {
             messageCell.className = "bright";
             row1.appendChild(messageCell);
 
-            var row2 = document.createElement("tr");
-            bustable.appendChild(row2);
-
-            var timeCell = document.createElement("td");
-            timeCell.innerHTML = " " + this.buses.timestamp + " ";
-            timeCell.className = "bright";
-            row2.appendChild(timeCell);
-
         }
 
         wrapper.appendChild(bustable);
