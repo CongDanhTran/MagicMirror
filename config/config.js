@@ -144,7 +144,18 @@ config: {
   animationSpeed: 3000,
   updateInterval: 10 * 60 * 1000,
    }
-},	
+},
+		{
+    module: "MMM-HNB-Exchange",
+    position: "bottom_center",
+    config: {
+        updateInterval: 3  * 60 * 60 * 1000,
+    	url: "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx",
+        decimal: 3, //
+        currency: ['GBP', 'USD', 'EUR'],
+        mode: "table", //"carousel"   "table"
+    }
+},   
 		/*{
 		module: 'MMM-SystemStats',
 		position: 'top_center', // This can be any of the regions.
