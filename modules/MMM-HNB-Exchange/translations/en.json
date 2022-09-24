@@ -1,0 +1,8 @@
+{
+    "HNB_EXCHANGE_RATES" : "VND Exchange rates Vietcombank",
+    "BUYING_RATE" : "Cash Buying",
+	"MIDDLE_RATE" : " Transfer Buying",
+	"SELLING_RATE" : " Selling",
+    "FOR" : " ",
+	"LOADING": "loading..."
+}

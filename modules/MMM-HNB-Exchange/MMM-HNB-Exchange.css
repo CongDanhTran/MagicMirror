@@ -1,0 +1,108 @@
+
+.MMM-HNB-Exchange .flagTd {
+    
+    vertical-align: middle;
+	padding: 5px;
+    
+}
+
+.MMM-HNB-Exchange .sellingTd,
+.MMM-HNB-Exchange .middleTd,
+.MMM-HNB-Exchange .buyingTd,
+.MMM-HNB-Exchange .valueTd{
+    
+    vertical-align: middle;
+	 padding-right : 5px;
+     padding-left : 5px;
+}
+
+
+.MMM-HNB-Exchange .sellingTd,
+.MMM-HNB-Exchange .middleTd,
+.MMM-HNB-Exchange .valueTd,
+.MMM-HNB-Exchange .buyingTd{
+    text-align : center;
+	font-size: 15px;
+    line-height: 20px;
+}
+
+.MMM-HNB-Exchange .sellingTd,
+.MMM-HNB-Exchange .buyingTd {
+   color: #FFF;
+}
+
+.MMM-HNB-Exchange .valueTd{
+	color: #999;
+}
+
+.MMM-HNB-Exchange .middleTd{
+	color: #666;
+}
+
+.MMM-HNB-Exchange .EUR {
+	background-position: -312px 0 !important;
+}
+
+.MMM-HNB-Exchange .USD {
+	background-position: -260px 0!important ;
+}
+
+.MMM-HNB-Exchange .GBP {
+	background-position: -234px 0 !important ;
+}
+
+.MMM-HNB-Exchange .AUD {
+	background-position: 0 0 !important;
+}
+
+.MMM-HNB-Exchange .BAM {
+	background-position: -286px 0 !important;
+}
+
+.MMM-HNB-Exchange .CAD {
+	background-position: -26px 0 !important;
+}
+
+.MMM-HNB-Exchange .CHF {
+	background-position: -208px 0 !important;
+}
+
+.MMM-HNB-Exchange .CZK {
+	background-position: -52px 0 !important;
+}
+
+.MMM-HNB-Exchange .DKK {
+	background-position: -78px 0 !important;
+}
+
+.MMM-HNB-Exchange .HRK {
+	background-position: -364px 0 !important;
+}
+
+.MMM-HNB-Exchange .HUF {
+	background-position: -104px 0 !important;
+}
+
+.MMM-HNB-Exchange .JPY {
+	background-position: -130px 0 !important;
+}
+
+.MMM-HNB-Exchange .NOK {
+	background-position: -156px 0 !important;
+	}
+
+.MMM-HNB-Exchange .PLN {
+	background-position: -338px 0 !important;
+}
+
+.MMM-HNB-Exchange .SEK {
+	background-position: -182px 0;
+}
+.MMM-HNB-Exchange .flagTd:first-child i {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(./icons/exchange-flags.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
