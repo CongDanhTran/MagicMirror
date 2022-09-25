@@ -174,41 +174,7 @@ config: {
             config: {
                 refreshInterval: 1 * 60 * 60 * 1000,
             }
-        },
-			{
-	module: "MMM-Jast",
-	position: "top_bar",
-	config: {
-		currencyStyle: "code", // One of ["code", "symbol", "name"]
-		fadeSpeedInSeconds: 1200,
-		lastUpdateFormat: "HH:mm",
-		maxChangeAge: 1 * 24 * 60 * 60 * 1000,
-		maxWidth: "100%",
-		numberDecimalsPercentages: 1,
-		numberDecimalsValues: 2,
-		scroll: "horizontal", // One of ["none", "vertical", "horizontal"]
-		showColors: true,
-		showCurrency: true,
-		showChangePercent: true,
-		showChangeValue: true,
-		showChangeValueCurrency: true,
-		showHiddenStocks: false,
-		showLastUpdate: false,
-		showPortfolioValue: false,
-		showPortfolioGrowthPercent: false,
-		showPortfolioGrowth: false,
-		updateIntervalInSeconds: 300,
-		useGrouping: false,
-		virtualHorizontalMultiplier: 2,
-		stocks: [
-			{ name: 'Apple', symbol: 'AAPL'},
-			{ name: 'Microsoft', symbol: 'MSFT'},
-			{ name: 'Alphabet', symbol: 'GOOG'},
-			{ name: 'Tesla', symbol: 'TSLA'},
-			{ name: 'SG', symbol: 'LNW'},
-		]
-	}
-	}
+        }
 	]
 };
 
