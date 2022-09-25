@@ -177,7 +177,7 @@ config: {
         },
 			{
 	module: "MMM-Jast",
-	position: "fullscreen_above",
+	position: "top_bar",
 	config: {
 		currencyStyle: "code", // One of ["code", "symbol", "name"]
 		fadeSpeedInSeconds: 1200,
