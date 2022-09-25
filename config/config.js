@@ -204,16 +204,7 @@ config: {
 			{ name: 'Apple', symbol: 'AAPL'},
 			{ name: 'Microsoft', symbol: 'MSFT'},
 			{ name: 'Alphabet', symbol: 'GOOG'},
-			{ name: 'Alphabet Class A ', symbol: 'GOOGL'},
-			{ name: 'Amazon', symbol: 'AMZN'},
 			{ name: 'Tesla', symbol: 'TSLA'},
-			{ name: 'J&J', symbol: 'JNJ'},
-			{ name: 'Visa ', symbol: 'V'},
-			{ name: 'Meta', symbol: 'META'},
-			{ name: 'Walmart', symbol: 'WMT'},
-			{ name: 'P&G', symbol: 'PG'},
-			{ name: 'JP Morgan', symbol: 'JPM'},
-			{ name: 'Mastercard', symbol: 'MA'},
 			{ name: 'SG', symbol: 'LNW'},
 		]
 	}
