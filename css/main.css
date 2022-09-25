@@ -137,7 +137,7 @@ sup {
 
 .module {
 /*   margin-bottom: var(--gap-modules); */
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .region.bottom .module {
