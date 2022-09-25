@@ -2,7 +2,7 @@
 {% import "templates/HorizontalScrollStyle.njk" as hss with context %}
 {% import "templates/HorizontalStockList.njk" as horizontalStockList with context %}
 {% if stocks.length > 0 %}
-  <div class="normal medium jast-wrapper {{ config.scroll }}{% if not config.showColors %} monochrome{% endif %}" style="max-width: {{config.maxWidth}};">
+  <div class="normal medium jast-wrapper {{ config.scroll }}{% if not config.showColors %} monochrome{% endif %}" style="width: {{config.maxWidth}};">
     {% if config.scroll == "horizontal" %}
       {{ hss.render() }}
       {{ horizontalStockList.render() }}
