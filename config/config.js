@@ -217,6 +217,7 @@ config: {
 			{ name: 'SG', symbol: 'LNW'},
 		]
 	}
+	}
 	]
 };
 
