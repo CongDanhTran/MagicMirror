@@ -33,6 +33,7 @@
   margin: 0 auto;
   white-space: nowrap;
   position: absolute;
+  overflow: auto;
 }
 
 .jast-wrapper.horizontal span.jast-tickerframe {
