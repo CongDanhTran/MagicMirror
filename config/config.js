@@ -73,7 +73,7 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "VN Holidays",
+			header: "Bath Timetable",
 			position: "top_left",
 			config: {
 				hideTime: true,
@@ -81,7 +81,7 @@ let config = {
 					{
 						symbol: "calendar-check",
 						maximumEntries: 8,
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/77/Vietnam_Holidays.ics"
+						url: "https://mytimetable.bath.ac.uk/ical?634c735c&group=false&eu=ZGN0NDA=&h=94sZxsaUGr0YbtQvptntvSYr4cleswqZTzWwc8uT9RI="
 					}
 				]
 			}
